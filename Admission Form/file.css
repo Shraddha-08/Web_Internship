@@ -1,0 +1,90 @@
+body{
+  background-color: #f7fafd;
+  padding: 20px;
+  font-size: larger;
+  font-family:'Times New Roman', Times, serif;
+}
+
+p{
+  padding: 12px 20px;
+  margin-top: 50px;
+}
+
+form{
+  background-color: #f2f2f2;
+  
+  padding: 12px 20px;
+}
+
+
+
+img{
+   padding-left: 80%;
+   width:200px;
+   height:180px;
+   margin-top: -180px;
+   
+   
+
+}
+
+input[type=text],input[type=email], input[type=address]{
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+
+input[type=date], input[type=number]{
+  width:25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=radio], input[type=checkbox]{
+  margin: 18px 0;
+  position: relative;
+  cursor: pointer;
+              }
+
+input[type=file]{
+    
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+input[type=reset]{
+      border:none;
+      color:#f2f2f2;
+      cursor:pointer;  
+      width:46%;
+      padding: 12px 20px;
+      margin: 15px -20px;
+      box-sizing: border-box;
+      background-color: rgb(64, 115, 209);
+      margin-left: 95px;
+
+}
+
+input[type=submit]{
+        border:none;
+        color:#f2f2f2;
+        cursor:pointer;  
+        width:46%;
+        padding: 12px 20px;
+        margin: 20px -20px;
+        box-sizing: border-box;
+        background-color: rgb(64, 115, 209);
+        margin-left: 8px;
+    }
+
+input[type=submit]:hover {
+      background-color: #1468f9;
+    }
+
+input[type=reset]:hover {
+      background-color: #f4382f;
+    }
+
